@@ -5,7 +5,7 @@
     <packaging>pom</packaging>
     <groupId>com.per.kate</groupId>
     <artifactId>Android-VKontakte-SDK</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -17,7 +17,7 @@
         <connection>scm:git:git@github.com:smecsia/Android-VKontakte-SDK.git</connection>
         <developerConnection>scm:git:git@github.com:smecsia/Android-VKontakte-SDK.git</developerConnection>
         <url>scm:git:git@github.com:smecsia/Android-VKontakte-SDK.git</url>
-        <tag>android-vk-sdk-0.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
     <modules>
         <module>AndroidVkSdk</module>
