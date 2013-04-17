@@ -3,3 +3,6 @@
 /AndroidVkSdkSample/gen
 /AndroidVkSdk/bin
 /AndroidVkSdk/gen
+.idea
+*.iml
+*.ipr
