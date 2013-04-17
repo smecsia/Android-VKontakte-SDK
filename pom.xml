@@ -19,7 +19,7 @@
         <connection>scm:git:git@github.com:smecsia/Android-VKontakte-SDK.git</connection>
         <developerConnection>scm:git:git@github.com:smecsia/Android-VKontakte-SDK.git</developerConnection>
         <url>scm:git:git@github.com:smecsia/Android-VKontakte-SDK.git</url>
-        <tag>tip</tag>
+        <tag>HEAD</tag>
     </scm>
     <modules>
         <module>AndroidVkSdk</module>
@@ -43,7 +43,7 @@
                 <configuration>
                     <tagNameFormat>android-vk-sdk-@{project.version}</tagNameFormat>
                     <branchName>android-vk-sdk-${project.version}-hotfix</branchName>
-                    <preparationGoals>clean install</preparationGoals>
+                    <preparationGoals>clean install -DcreateChecksum=true</preparationGoals>
                     <goals>package</goals>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
